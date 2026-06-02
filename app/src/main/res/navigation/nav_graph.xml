@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.sit708_41p.ListFragment"
+        android:label="List" />
+
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.sit708_41p.CreateFragment"
+        android:label="Create" />
+
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.sit708_41p.UpdateFragment"
+        android:label="Update" />
+
+</navigation>
