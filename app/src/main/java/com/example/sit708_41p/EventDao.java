@@ -20,7 +20,7 @@ public interface EventDao {
     @Delete
     void delete(Event event);
 
-    @Query("SELECT * FROM events ORDER BY time ASC")
+    @Query("SELECT * FROM events ORDER BY substr(time, 7, 4) ASC, substr(time, 4, 2) ASC, substr(time, 1, 2) ASC, substr(time, 12, 5) ASC")
     List<Event> getAllEvents();
 
     @Query("SELECT * FROM events WHERE id = :id LIMIT 1")
