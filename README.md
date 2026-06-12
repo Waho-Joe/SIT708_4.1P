@@ -38,11 +38,5 @@ app/src/main/res/layout/
 ├── fragment_create.xml
 └── fragment_update.xml
 
-app/src/main/res/menu/
-└── bottom_nav_menu.xml
-
-app/src/main/res/navigation/
-└── nav_graph.xml
-
 app/src/main/
 └── AndroidManifest.xml
